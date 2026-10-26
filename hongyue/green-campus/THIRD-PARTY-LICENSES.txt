@@ -1,0 +1,20 @@
+Official liquid-glass-react npm package 1.1.1, installed and imported directly from https://github.com/rdev/liquid-glass-react
+
+Copyright 2025 MAX ROVENSKY
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Pond illustration and animation: original procedural Canvas2D artwork created for this preview. No MetalForge production code, images or models are included. Existing teaching photos retain their existing credits in image-review.html.
+
+Gravity opening: adapted from the user's supplied Gravity-Letters-源代码.zip,
+src/components/sites/reactbits/GravityLetters.tsx and sand-physics.ts.
+The supplied project documents this as an independent Canvas2D implementation,
+not official React Bits Pro component source. Original source is retained in
+../research/gravity-loader-20261025/source/ for traceability.
+The bundled Geist Latin font is self-hosted; its SIL Open Font License notice
+is retained in fonts/Gravity-Geist-OFL.txt.
