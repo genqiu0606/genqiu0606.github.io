@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>返回现有互动课堂</title><style>body{background:#07120d;color:#f4f6f0;font:20px system-ui;display:grid;place-content:center;min-height:90vh;padding:30px}button,a{background:#d9edad;color:#173b30;border:0;border-radius:12px;padding:14px 22px;font:inherit;cursor:pointer}p{max-width:650px;line-height:1.7;color:#c7d0c6}</style><h1>Green Campus</h1><p id="status">正在寻找已经打开的课堂…</p><button id="return" hidden>返回现有课堂</button><p id="help" hidden>已将原课堂切到所选栏目。若浏览器阻止自动关闭或切换，请关闭本过渡标签，返回已有课堂；填写记录保留。</p><a id="open" hidden>没有看到原课堂？在此继续</a><script>
 (() => {
- const hash=/^#(home|words|practice|dictation|listening|review)(\?[^#]*)?$/.test(location.hash)?location.hash:'#home';
+ const hash=/^#(home|words|practice|dictation|listening|review|task1|task2|time)(\?[^#]*)?$/.test(location.hash)?location.hash:'#home';
  const status=document.querySelector('#status'),back=document.querySelector('#return'),help=document.querySelector('#help'),open=document.querySelector('#open');
  const target='./'+hash;open.href=target;
  if (!('BroadcastChannel' in window)) { location.replace(target); return; }
